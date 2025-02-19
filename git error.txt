@@ -1,0 +1,10 @@
+A much more clever approach to solving the issue as an addon to @ttaylorr suggestion is to do the following.
+
+git remote add origin <yourGitRepoSSHLink>
+git remote -v
+If you find the fetch and push with a preceding origin returned, then it's fixed.
+Do some edits and push using git push origin main or git push origin master
+
+Hope this helps, Good luck.
+
+ if we stuck about repo 
